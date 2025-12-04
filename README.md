@@ -147,7 +147,7 @@ SET balance = balance * 1.1
 WHERE created_at < '2025-04-12';
 ```
 
-Запросы в ежедневной работы
+Запросы в ежедневной работе
 
 1. Быстрая проверка количества записей
 
@@ -177,5 +177,5 @@ EXPLAIN SELECT *
 FROM Users u
 JOIN Orders o ON u.id = o.user_id
 WHERE o.amount > 1000
-  AND o.created_at > '2024-01-01';
+  AND o.created_at > '2025-12-04';
 ```
